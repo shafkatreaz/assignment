@@ -1,0 +1,168 @@
+#tab_content{
+
+width: 400px;
+
+}
+
+#textbox_dialer{
+
+width: 410px;
+margin-right: 10px;
+height:75px;
+text-align: center;
+
+}
+
+.container{
+
+	width:410px;
+	height: 500px;
+	border:2px solid grey;
+	border-radius: 10px;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+.container_dialer{
+
+	margin-left: 10px;
+}
+
+#tab_bar{
+
+	width:410px;
+	padding: 10px 20px 10px 0;
+
+}
+
+#tab_content{
+
+	padding: 0 0 20px 0px;
+
+}
+/*
+	top, right, bottom, left
+
+*/
+
+.btn_num{
+	background:white;
+	width:100%;
+	border: 6px solid white;
+
+}
+
+.btn_num2{
+	
+	width:100%;
+	border: 2px solid white;
+
+}
+
+
+
+#btn_dialer{
+
+	width:75px;
+	height: 75px;
+	margin-top:5px;
+	color:#fff;
+	background-color: #5cb85c;
+	border-color: #5cb85c;
+	border-radius:50%;
+}
+
+#btn_dialer:hover{
+
+	
+	background-color: #409740;
+	
+
+
+}
+
+#btn_clear:hover{
+
+	
+	background-color: #840707;
+	
+
+
+}
+
+#btn_clear{
+
+	
+	width: 75px;
+	height: 75px;
+	border-radius:50%;
+	margin-top:5px;
+	color:#fff;
+	background-color: #CF0000;
+	border-color: #CF0000;
+}
+
+#btn_addContact{
+
+	width: 50%;
+	color:#fff;
+	background-color: #5cb85c;
+	border-color: #5cb85c;
+
+}
+
+#btn_addContactClear{
+	float:right;
+	width:50%;
+	color:#fff;
+	background-color: #B20000;
+	border-color: #B20000;
+
+}
+
+
+.textboxContact{
+
+	width:100%;
+	margin-bottom: 20px;
+
+}
+
+#name, #phone, #email{
+
+	margin-bottom: 15px;
+	border-top:0; box-shadow: inset 0 0 0 red; border-left:0; border-right:0; border-radius:0;
+}
+
+
+#tab_1, #tab_2, #tab_3{
+	width:100%;
+	color: black;
+	background-color: #fff;
+	border-bottom: 2px solid grey;
+	border-radius: 0 0 0 0 ;
+}
+
+#tab_1:hover,#tab_2:hover,#tab_3:hover{
+
+	border-bottom-color: green;
+}
+
+#tab_2:focus,#tab_1:focus,#tab_3:focus{
+	border-bottom-color: green;
+}
+
+.pp{
+
+	border-bottom: 2px solid black;
+}
+
+.btntab:focus {
+  background-color: red;
+}
+
+#tab_contactAdd, #tab_contactList{
+
+	margin-left: 10px;
+}
+
